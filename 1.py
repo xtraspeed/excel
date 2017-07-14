@@ -3,7 +3,7 @@ from os.path import join, dirname, abspath
 import xlrd
 
 #fname = join(dirname(dirname(abspath(__file__))), 'test_data', 'Cad Data Mar 2014.xlsx')
-fname='WL_gn_88_nrn.xls'
+fname='hello.xls'
 # Open the workbook
 xl_workbook = xlrd.open_workbook(fname)
 
